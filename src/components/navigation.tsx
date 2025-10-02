@@ -67,7 +67,7 @@ export function Navigation({ activeSection }: NavigationProps) {
             className="flex items-center gap-3 text-xl font-medium text-white hover:text-primary transition-colors group"
           >
             <img 
-              src="/images/cameraLogo.jpg"
+              src="/images/cameraLogo.png"
               alt="Camera Aperture Logo" 
               className={`w-8 h-8 opacity-90 group-hover:opacity-100 transition-all duration-300 ${
                 isSpinning ? 'animate-spin-smooth' : ''
