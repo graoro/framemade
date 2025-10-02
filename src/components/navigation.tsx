@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import cameraLogo from "/assets/db855dae3020baca994f2b188607d2951c256afd.png";
 
 interface NavigationProps {
   activeSection: string;
