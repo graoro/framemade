@@ -120,7 +120,7 @@ export const caseStudiesData: CaseStudyData[] = [
     client: "Jordan Lee",
     title: "Jordan Lee",
     thumbnail:
-      "https://pbs.twimg.com/profile_images/1847177758197141504/NDAo1C91_400x400.jpg",
+      "/images/jordanlee.jpg",
     resultsSummary:
       "Transformed his channel into a powerful personal brand engine — one that inspires, educates, and builds trust at the same time.",
     challenge:
