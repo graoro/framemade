@@ -79,7 +79,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Hampton Sports Short-form Content",
           caption: "Hampton Sports viral short-form content",
           thumbnail:
-            "https://i.ytimg.com/vi/m-DDR9VC7Dg/hqdefault.jpg",
+            "/images/jack thumb.jpg",
         },
         {
           type: "video",
