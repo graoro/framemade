@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Jack Hampton",
     client: "Jack Hampton",
     thumbnail:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfm1xnSTu_7dPdxlfdek1z0a4hrSaUf1Q0Vl9DxkJ2-Gj2Gz-RtxFqlltBFvBsqniQksI&usqp=CAU",
+      "public/images/jack thumb.jpg",
     websiteUrl: "https://www.youtube.com/@JackHampton",
   },
   {
