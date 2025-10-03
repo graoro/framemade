@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Jack Hampton",
     client: "Jack Hampton",
     thumbnail:
-      "public/images/jack thumb.jpg",
+      "/images/jack thumb.jpg",
     websiteUrl: "https://www.youtube.com/@JackHampton",
   },
   {
