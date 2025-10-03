@@ -319,7 +319,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Sparrow Claims Instagram Content",
           caption: "Cross-platform insurance education content",
           thumbnail:
-            "/images/sparrowthumbnail2.png",
+            "/images/sparrowthumbnail2.jpg",
         },
       ],
     },
