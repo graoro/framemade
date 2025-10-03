@@ -79,7 +79,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Hampton Sports Short-form Content",
           caption: "Hampton Sports viral short-form content",
           thumbnail:
-            "/images/jack thumb.jpg",
+            "/images/jackthumbnail1.jpg",
         },
         {
           type: "video",
@@ -87,7 +87,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Hampton Sports TikTok Content",
           caption: "Cross-platform content distribution",
           thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSteLe2KeZuO_OePfHJ1lIy7JKJ11Pi567XJQxEoS2u3E-qxNWnAl24Xb6aCDuXRSkKBlc&usqp=CAU",
+            "/images/jackthumbnail2.png",
         },
       ],
     },
@@ -311,7 +311,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Sparrow Claims TikTok Content",
           caption: "Viral insurance content on TikTok",
           thumbnail:
-            "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ooWOQcSRAEei9BDoDAgFCIFPIfQ1ovECOAAsEA~tplv-tiktokx-origin.image?dr=14575&x-expires=1759500000&x-signature=K6jIxLz37U93hYS90oTvox8OTGM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=maliva",
+            "/images/sparrowthumbnail1.png",
         },
         {
           type: "video",
@@ -319,7 +319,7 @@ export const caseStudiesData: CaseStudyData[] = [
           alt: "Sparrow Claims Instagram Content",
           caption: "Cross-platform insurance education content",
           thumbnail:
-            "https://dl.fastvideosave.net/?url=https%3A%2F%2Fscontent-iad3-2.cdninstagram.com%2Fv%2Ft51.2885-15%2F471550355_1240519697033910_2126247073291999327_n.jpg%3Fstp%3Ddst-jpg_e15_tt6%26_nc_ht%3Dscontent-iad3-2.cdninstagram.com%26_nc_cat%3D106%26_nc_oc%3DQ6cZ2QH6t4mbl-AVGAQPP3-uzCxluvgRQHNdYJGVKqNytEvTpGmSy1o-sSMnfz8kEoPhWp8%26_nc_ohc%3DwF7dMEWtvNcQ7kNvwG23aAM%26_nc_gid%3D1aTPNRbOq-fiR9uBgHchRQ%26edm%3DAPs17CUBAAAA%26ccb%3D7-5%26oh%3D00_AfZTMCAFc4PSa5Upt6Jsi009RNPdzggkvub1FnW7apv5LA%26oe%3D68E3154B%26_nc_sid%3D10d13b",
+            "/images/sparrowthumbnail2.png",
         },
       ],
     },
