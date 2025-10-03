@@ -32,7 +32,7 @@ const projects: Project[] = [
     title: "Jordan Lee",
     client: "Jordan Lee",
     thumbnail:
-      "https://pbs.twimg.com/profile_images/1847177758197141504/NDAo1C91_400x400.jpg",
+      "/images/jordanlee.jpg",
     websiteUrl: "https://editedbymarko.carrd.co/",
   },
   {
