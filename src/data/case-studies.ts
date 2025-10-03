@@ -62,7 +62,7 @@ export const caseStudiesData: CaseStudyData[] = [
     client: "Jack Hampton",
     title: "Jack Hampton",
     thumbnail:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZmXawabutKbIkchitlZVqt_d8rNxzAgQhQ&s",
+      "/images/jack thumb.jpg",
     resultsSummary:
       "Transformed consistency and style into measurable growth — both in reach and brand identity across Hampton Sports and The Hampton Show.",
     challenge:
