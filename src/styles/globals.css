@@ -51,3 +51,27 @@ label,
 .sonner-toast * {
   color: #9ca3af !important;
 }
+
+/* ✅ Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
+
+/* ✅ Better mobile text scaling */
+h1 {
+  font-size: clamp(28px, 6vw, 64px);
+}
+
+h2 {
+  font-size: clamp(22px, 5vw, 40px);
+}
+
+p {
+  font-size: clamp(14px, 3.5vw, 18px);
+}
+
+/* ✅ Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
