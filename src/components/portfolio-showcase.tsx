@@ -48,7 +48,7 @@ const projects: Project[] = [
     title: "Nutralife",
     client: "Nutralife",
     thumbnail:
-      "https://www.thedailyworld.com/wp-content/uploads/2025/02/38600125_web1_M1-ADW250207-Nutralife-Gummies-Teaser.jpg",
+      "https://m.media-amazon.com/images/I/71olL3xYMgL.jpg",
     websiteUrl: "https://editedbymarko.carrd.co/",
   },
   {

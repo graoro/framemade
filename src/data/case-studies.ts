@@ -240,7 +240,7 @@ export const caseStudiesData: CaseStudyData[] = [
     client: "Nutralife",
     title: "Nutralife",
     thumbnail:
-      "https://www.mynumara.com/cdn/shop/files/Buy_1_Get_1_Free_5.png?v=1751698065",
+      "https://www.mynumara.com/cdn/shop/files/pdp_img3.webp?v=1746438578&width=1445",
     resultsSummary:
       "Transformed social media presence into a consistent revenue driver with a clean, sales-driven content style unique to their brand.",
     challenge:
