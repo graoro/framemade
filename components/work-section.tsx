@@ -8,8 +8,7 @@ import { useReveal } from '@/hooks/use-reveal'
 export function WorkSection() {
   useReveal()
 
-  // On desktop: insert About card at position 4 to fill gap in middle column
-  // On mobile: About card shows last (handled via CSS order)
+  // Insert About card at position 4 (after 4 project cards) to fill the gap in the middle column
   const firstHalf = PROJECTS.slice(0, 4)
   const secondHalf = PROJECTS.slice(4)
 
@@ -21,16 +20,7 @@ export function WorkSection() {
         </p>
       </div>
 
-      {/* Mobile: flex column with About card at end via order */}
-      <div className="flex flex-col md:hidden gap-1.5">
-        {PROJECTS.map((project, i) => (
-          <ProjectCard key={project.id} project={project} index={i} />
-        ))}
-        <AboutCard index={PROJECTS.length} />
-      </div>
-
-      {/* Desktop: columns layout with About card in middle */}
-      <div className="hidden md:block md:columns-2 lg:columns-3 gap-1.5">
+      <div className="columns-1 md:columns-2 lg:columns-3 gap-1.5">
         {firstHalf.map((project, i) => (
           <ProjectCard key={project.id} project={project} index={i} />
         ))}
