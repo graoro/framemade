@@ -23,8 +23,8 @@ export function AboutCard({ index }: AboutCardProps) {
     >
       <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-surface">
         <Image
-          src="https://framemade.vercel.app/images/markoPhoto.jpg"
-          alt="Marko, founder of frameMade"
+  src="/images/markoPhoto.jpg"
+  alt="Marko, founder of frameMade"
           fill
           className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
