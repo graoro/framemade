@@ -20,9 +20,9 @@ export function ContactSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center max-w-[880px] mx-auto">
         <div className="flex justify-center md:justify-end reveal">
           <div className="relative w-[290px] h-[290px]">
-            <Image
-              src="https://framemade.vercel.app/images/markoPhoto.jpg"
-              alt="Marko, founder of frameMade"
+           <Image
+  src="/images/markoPhoto.jpg"
+  alt="Marko, founder of frameMade"
               fill
               className="rounded-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-all duration-[600ms] shadow-[0_0_60px_rgba(0,0,0,0.5)]"
             />
