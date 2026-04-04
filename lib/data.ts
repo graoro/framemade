@@ -47,12 +47,12 @@ export const PROJECTS: Project[] = [
   {
     id: '2',
     title: 'Jack Hampton',
-    thumb: 'https://framemade.vercel.app/images/jack%20thumb.jpg',
+    thumb: '/images/jack-thumb.jpg',
   },
   {
     id: '3',
     title: 'Jordan Lee',
-    thumb: 'https://framemade.vercel.app/images/jordanlee.jpg',
+    thumb: '/images/jordanlee.jpg',
   },
   {
     id: '4',
@@ -123,19 +123,19 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
     execution:
       "On Hampton Sports, the focus was scalable short-form edits designed for virality. On The Hampton Show, we developed a distinct style language — fresh branding, pacing, and presentation — to differentiate it from his main channel. Collaboration went beyond editing: we actively participated in creative ideation.",
     visuals: [
-      {
-        type: 'video',
-        src: 'https://www.youtube.com/shorts/m-DDR9VC7Dg',
-        thumb: 'https://framemade.vercel.app/images/jackthumbnail1.jpg',
-        caption: 'Hampton Sports viral short-form content',
-      },
-      {
-        type: 'video',
-        src: 'https://www.tiktok.com/@hampton.sports/video/7482919997363244318',
-        thumb: 'https://framemade.vercel.app/images/jackthumbnail2.png',
-        caption: 'Cross-platform content distribution',
-      },
-    ],
+ {
+      type: 'video',
+      src: 'https://www.youtube.com/shorts/m-DDR9VC7Dg',
+      thumb: '/images/jackthumbnail1.jpg',
+      caption: 'Hampton Sports viral short-form content',
+    },
+    {
+      type: 'video',
+      src: 'https://www.tiktok.com/@hampton.sports/video/7482919997363244318',
+      thumb: '/images/jackthumbnail2.png',
+      caption: 'Cross-platform content distribution',
+    },
+  ],
     results:
       'Hampton Sports Shorts averaged around 1 million views per video, establishing Jack as a consistent voice in sports commentary. The Hampton Show successfully launched with a clear identity and strong early audience engagement.',
     closing:
