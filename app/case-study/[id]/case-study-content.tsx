@@ -133,7 +133,7 @@ export function CaseStudyContent({ caseStudy }: CaseStudyContentProps) {
             href="/#contact-sec"
             className="inline-flex items-center gap-3 font-mono text-xs tracking-[0.15em] uppercase text-black bg-gold px-12 py-5 hover:bg-white hover:-translate-y-0.5 hover:gap-4 transition-all"
           >
-            Work With Me
+            Work With Us
             <svg viewBox="0 0 14 14" fill="none" className="w-3.5 h-3.5 shrink-0">
               <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" />
             </svg>
