@@ -262,18 +262,18 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       'Introduced a signature content style with clean visuals, clear messaging, and engaging editing. Published consistently across TikTok, Instagram Reels, YouTube Shorts, and more. Balanced educational value with entertaining delivery, keeping viewers engaged while positioning the brand as a trusted expert.',
     visuals: [
       {
-        type: 'video',
-        src: 'https://www.tiktok.com/@sparrowclaims/video/7503595068205403435',
-        thumb: 'https://framemade.vercel.app/images/sparrowthumbnail1.png',
-        caption: 'Viral insurance content on TikTok',
-      },
-      {
-        type: 'video',
-        src: 'https://www.instagram.com/sparrow.claims/reel/DEYZ9qgxw-2/',
-        thumb: 'https://framemade.vercel.app/images/sparrowthumbnail2.jpg',
-        caption: 'Cross-platform insurance education content',
-      },
-    ],
+      type: 'video',
+      src: 'https://www.tiktok.com/@sparrowclaims/video/7503595068205403435',
+      thumb: '/images/sparrowthumbnail1.png',
+      caption: 'Viral insurance content on TikTok',
+    },
+    {
+      type: 'video',
+      src: 'https://www.instagram.com/sparrow.claims/reel/DEYZ9qgxw-2/',
+      thumb: '/images/sparrowthumbnail2.jpg',
+      caption: 'Cross-platform insurance education content',
+    },
+  ],
     results:
       'Numerous videos exceeded 1M+ views, creating viral momentum across platforms. The viral traction directly translated into boosted sales and lead generation for Sparrow Claims. Built a strong, recognizable brand presence where few competitors existed.',
     closing:
