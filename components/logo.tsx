@@ -1,33 +1,33 @@
-import { cn } from '@/lib/utils'
+import Image from 'next/image';
+import { cn } from '@/lib/utils';
 
 interface LogoProps {
-  className?: string
-  size?: 'sm' | 'md' | 'lg' | 'xl' | 'hero'
+  className?: string;
+  size?: 'sm' | 'md' | 'lg' | 'xl' | 'hero';
 }
 
-const sizeClasses = {
-  sm: 'text-lg',
-  md: 'text-xl',
-  lg: 'text-2xl',
-  xl: 'text-4xl',
-  hero: 'text-[clamp(48px,11vw,150px)]',
-}
+const sizeMap = {
+  sm: 32,
+  md: 42,
+  lg: 52,
+  xl: 68,
+  hero: 160,        // Big logo on homepage hero section
+};
 
 export function Logo({ className, size = 'md' }: LogoProps) {
+  const width = sizeMap[size];
+  const height = Math.round(width * 0.65); // Adjust ratio if your apple-icon.png is not square
+
   return (
-    <div className={cn('flex items-baseline gap-0', sizeClasses[size], className)}>
-      <span className="font-serif font-normal italic" style={{ fontFamily: "'Times New Roman', serif" }}>
-        frame
-      </span>
-      <span
-        className="font-bold"
-        style={{
-          fontFamily: "'Arial', sans-serif",
-          fontSize: size === 'hero' ? 'inherit' : '0.9em',
-        }}
-      >
-        Made
-      </span>
+    <div className={cn("flex items-center justify-center", className)}>
+      <Image
+        src="/apple-icon.png"
+        alt="frameMade – Creative Agency"
+        width={width}
+        height={height}
+        priority={size === 'hero'}           // Better performance on homepage
+        className="object-contain transition-all duration-300"
+      />
     </div>
-  )
+  );
 }
