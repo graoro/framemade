@@ -43,6 +43,24 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+  openGraph: {
+    title: 'frameMade – Creative Agency',
+    description: 'We help brands grow with modern design and content.',
+    images: [
+      {
+        url: '/preview.jpg',        
+        width: 1200,
+        height: 630,
+        alt: 'frameMade – Creative Agency',
+      },
+    ],
+    type: 'website',
+    siteName: 'frameMade',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/preview.jpg'],       
+  },
 }
 
 export const viewport: Viewport = {
