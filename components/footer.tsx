@@ -16,7 +16,7 @@ export function Footer() {
           Twitter
         </a>
         <a
-          href="https://www.instagram.com/framemade.co/"
+          href="https://www.instagram.com/framemade.space/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-mono text-[11px] tracking-[0.12em] uppercase text-faint hover:text-gold transition-colors"
