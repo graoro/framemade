@@ -52,7 +52,7 @@ export function ContactSection() {
 
       <div className="flex flex-wrap justify-center items-center gap-y-2.5 gap-x-9 mt-14 pt-11 border-t border-border reveal">
         <a
-          href="mailto:mgraoroski13@gmail.com"
+          href="mailto:marko@framemade.space"
           className="font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
         >
           mgraoroski13@gmail.com
