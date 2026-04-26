@@ -80,7 +80,7 @@ export function ContactSection() {
           aria-label="Instagram"
         >
           <Instagram size={15} className="shrink-0" />
-          @framemade.co
+          @framemade.space
         </a>
       </div>
     </section>
