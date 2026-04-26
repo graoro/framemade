@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { Mail, Twitter, Instagram } from 'lucide-react'
 import { useReveal } from '@/hooks/use-reveal'
 
 export function ContactSection() {
@@ -50,11 +51,13 @@ export function ContactSection() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-y-2.5 gap-x-9 mt-14 pt-11 border-t border-border reveal">
+      <div className="flex flex-wrap justify-center items-center gap-y-2.5 gap-x-8 mt-14 pt-11 border-t border-border reveal">
         <a
           href="mailto:marko@framemade.space"
-          className="font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
+          className="flex items-center gap-2 font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
+          aria-label="Email"
         >
+          <Mail size={15} className="shrink-0" />
           marko@framemade.space
         </a>
         <span className="text-white/15">•</span>
@@ -62,9 +65,22 @@ export function ContactSection() {
           href="https://x.com/markomp4__"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
+          className="flex items-center gap-2 font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
+          aria-label="X (Twitter)"
         >
-          @markomp4__ on X
+          <Twitter size={15} className="shrink-0" />
+          @markomp4__
+        </a>
+        <span className="text-white/15">•</span>
+        <a
+          href="https://www.instagram.com/framemade.space/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
+          aria-label="Instagram"
+        >
+          <Instagram size={15} className="shrink-0" />
+          @framemade.co
         </a>
       </div>
     </section>
