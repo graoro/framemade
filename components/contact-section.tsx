@@ -55,7 +55,7 @@ export function ContactSection() {
           href="mailto:marko@framemade.space"
           className="font-mono text-[13px] tracking-[0.04em] text-dim hover:text-gold transition-colors"
         >
-          mgraoroski13@gmail.com
+          marko@framemade.space
         </a>
         <span className="text-white/15">•</span>
         <a
